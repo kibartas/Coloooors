@@ -22,7 +22,7 @@ def giveColorV1(RGBString, NamesString, i):
     return (RGBCopy, NamesString[i])
 
 def main():
-    ColorsRGBFile = open('extractedRGBWikipedia.txt', 'r')
+    ColorsRGBFile = open('RGBValuesWikipedia.txt', 'r')
     ColorsNamesFile = open('ColorNamesWikipedia.txt', 'r')
 
     fileStrings = (ColorsRGBFile.read(), ColorsNamesFile.read())
